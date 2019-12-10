@@ -1,0 +1,9 @@
+cat = new Cat()
+print "Name is currently " + cat.getName()
+
+cat.setName("Garfield")
+print "Name has been changed to " + cat.getName()
+
+data = new Data("database")
+
+data.insert("Cat", cat)

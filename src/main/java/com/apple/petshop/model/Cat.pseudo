@@ -1,0 +1,36 @@
+class Cat {
+
+    attribute name
+    attribute age
+    attribute favoriteFood
+
+    method constructor {
+        this.name = nil        this.age = nil
+        this.favoriteFood = nil
+    }
+
+    method getName {
+        return this.name
+    }
+
+    method getAge {
+        return this.age
+    }
+
+    method getFavoriteFood {
+        return this.favoriteFood
+    }
+
+    method setName (newName) {
+        this.name = newName
+    }
+
+    method setAge (newAge) {
+        this.age = newAge
+    }
+
+    method setFavoriteFood (newFavoriteFood) {
+        this.favoriteFood = newFavoriteFood
+    }
+
+}

@@ -1,0 +1,22 @@
+class Data {
+
+    method constructor (database) {
+        print "Connecting to database"
+    }
+
+    method beginTran {
+        print "Beginning a transaction"
+    }
+
+    method commit {
+        print "Committing transaction"
+    }
+
+    method rollback {
+        print "Rolling back transaction"
+    }
+
+    method insert (table, object) {
+        print "Inserting " + object.getName() + " into table " + table
+    }
+}
